@@ -1,7 +1,3 @@
-type Test = string;
+export const welcome: string = 'Hi';
 
-const test: Test = 'RAWR';
-
-console.log('test3', test);
-
-export default test;
+export default welcome;
