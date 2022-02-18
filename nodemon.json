@@ -1,0 +1,22 @@
+{
+  "verbose": false,
+  "restartable": "rs",
+  "watch": [
+    "./src"
+  ],
+  "ext": "ts,js,mjs,json",
+  "ignore": [
+    ".swc/",
+    ".vscode/",
+    ".yarn/",
+    ".git/",
+    "dist/",
+    "node_modules/",
+    "coverage/",
+    "*.test.ts"
+  ],
+  "exec": "yarn build:dev",
+  "env": {
+    "NODE_ENV": "development"
+  }
+}
